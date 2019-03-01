@@ -8,7 +8,7 @@
 
 int main(int argc, char *argv[]) {
     FILE *src, *dst;
-    if (argc != 2){
+    if (argc != 3){
         printf("usage:nome_do_executável file1 file2  \n");
     }
     char buf[BUF_LENGTH];
