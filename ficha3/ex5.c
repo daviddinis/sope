@@ -9,7 +9,15 @@ int main(void) {
         printf("Hello ");
     }
     else {
-        printf("world \n");
+        if (fork() > 0){
+        printf("my ");
+
+        }
+        else {
+            
+            printf("friends!\n");
+            }
+
     }
     return 0;
 }
